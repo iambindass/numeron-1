@@ -65,7 +65,7 @@ var timer = document.getElementById("timer");
 var timerId;
 
 function startTimer() {
-  time = 10;
+  time = 5;
   timer.innerHTML = time;
   timerId = setInterval(() => {
     time--;
